@@ -1,0 +1,14 @@
+SMAP
+feedbackdelete_jsp.java
+JSP
+*S JSP
+*F
++ 0 feedbackdelete.jsp
+feedbackdelete.jsp
+*L
+1,64:55
+65,25:120
+89,4:145
+94,4:151
+97,62:155
+*E
