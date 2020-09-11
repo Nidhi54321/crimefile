@@ -95,7 +95,7 @@ Released for free under a Creative Commons Attribution 2.5 License
         <a href="mostwanted1.jsp">Most wanted</a>
 		</form>
     <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 </body>
 </html>

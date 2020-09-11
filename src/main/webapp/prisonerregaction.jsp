@@ -218,8 +218,8 @@ function doCheck()
                 String height = request.getParameter("ht");
                 String wat = request.getParameter("wt");
                 String color = request.getParameter("co");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st2 = con1.createStatement();
                 st2.executeUpdate("insert into prisonerregister values('"+prison+"','"+chargesheet+"','"+nickname+"','"+crimetype+"','"+familymem+"','"+identification+"','"+height+"','"+wat+"','"+color+"' )");
                 out.println("Data successfully  Submitted");
@@ -283,7 +283,7 @@ function doCheck()
   </div>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. Designed by<em> <span class="style1"><a href="http://www.freecsstemplates.org/">www.crimefilemanagement.com</a></span></em></p>
+	<p>Copyright &copy; 2020 cfm. Designed by<em> <span class="style1"><a href="http://www.freecsstemplates.org/">www.crimefilemanagement.com</a></span></em></p>
 </div>
 </body>
 </html>

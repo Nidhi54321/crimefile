@@ -140,7 +140,7 @@ Released for free under a Creative Commons Attribution 2.5 License
             </div>
         </div>
         <div id="footer">
-            <p>Copyright &copy; 2009 cfm</p>
+            <p>Copyright &copy; 2020 cfm</p>
         </div>
     </body>
 </html>

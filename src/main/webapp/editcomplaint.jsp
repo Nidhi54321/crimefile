@@ -136,8 +136,8 @@
                 String c1 = (String) session.getAttribute("s1");
                 out.println(c1);
                 String c2 = (String) session.getAttribute("s2");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 ResultSet rs = st.executeQuery("select detailssuspect,Description,Datc,typeofcrime from complaintreg where userid='" + c1 + "'");
                 while (rs.next()) {
@@ -195,7 +195,7 @@
         %>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 </body>
 </html>

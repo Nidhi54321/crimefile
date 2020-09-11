@@ -57,8 +57,8 @@ Released for free under a Creative Commons Attribution 2.5 License
             <%
             try {
 
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 ResultSet rs = st.executeQuery("select * from prisonerregister");
                 String prino = "", chargesheetno1 = "", Nickname = "", typeofcrime = "", family = "", Iden = "", height = "", weight = "", color = "";
@@ -161,7 +161,7 @@ Released for free under a Creative Commons Attribution 2.5 License
 </div>
 </div>
 <div id="footer">
-    <p>Copyright &copy; 2009 cfm. Designed by<em> <span class="style1"><a href="http://www.freecsstemplates.org/">www.crimefilemanagement.com</a></span></em></p>
+    <p>Copyright &copy; 2020 cfm. Designed by<em> <span class="style1"><a href="http://www.freecsstemplates.org/">www.crimefilemanagement.com</a></span></em></p>
 </div>
 </body>
 </html>

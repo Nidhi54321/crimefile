@@ -61,8 +61,8 @@
                                     <%
         try {
 
-            Class.forName("com.mysql.jdbc.Driver").newInstance();
-            Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+            Class.forName("org.postgresql.Driver").newInstance();
+            Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
             Statement st = con1.createStatement();
             ResultSet rs = st.executeQuery("select matter from hotnews");
             String matter = "";
@@ -124,7 +124,7 @@
                     <div class="divider"></div>
                 </div>
                 <div id="footer">
-                    Copyright @ 2009
+                    Copyright @ 2020
                 </div>
             </div>
         </div>

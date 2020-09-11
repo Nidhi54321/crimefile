@@ -37,8 +37,8 @@
                   
                   String subject1 = request.getParameter("subject");
                   String msg = request.getParameter("msg"); 
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 //Statement st1 = con1.createStatement();
                 st.executeUpdate("insert into mail values('" + to1+ "','" + from1 + "' ,'" + cc1 + "' ,'" + bcc1 + "','"+subject1+"','"+msg+"' )");
@@ -59,7 +59,7 @@
 <table width="100%" border="0" cellspacing="0" cellpadding="0">
   <tr>
     <td align="center"><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">crimefile</font><font face="Verdana, Arial, Helvetica, sans-serif" size="-2">
-      &copy; Copyright  2005-2009</font></td>
+      &copy; Copyright  2019-2020</font></td>
   </tr>
 </table>
 <p>&nbsp;</p>

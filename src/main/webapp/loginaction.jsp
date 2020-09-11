@@ -5,7 +5,6 @@
             //out.println(uname);
            // out.println(passd);
 
-
             try {
                 String s1 = request.getParameter("username");
                 String s2 = request.getParameter("password");
@@ -13,8 +12,8 @@
                 session.setAttribute("s2", s2);
                // out.println(s1);
                // out.println(s2);
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                // out.println(con1);
                 //Class.forName("sun.jdbc.odbc.JdbcOdbcDriver");
                 // Connection con = DriverManager.getConnection("jdbc:odbc:crimefilems");

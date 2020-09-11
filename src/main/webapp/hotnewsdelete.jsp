@@ -58,8 +58,8 @@ Released for free under a Creative Commons Attribution 2.5 License
 			String matter1=request.getParameter("matter1");
 				out.println(matter1);
 
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
 				
                 st.executeUpdate(" delete from hotnews where matter='"+matter1+"'");
@@ -117,7 +117,7 @@ Released for free under a Creative Commons Attribution 2.5 License
             </div>
         </div>
         <div id="footer">
-            <p>Copyright &copy; 2009 cfm. </p>
+            <p>Copyright &copy; 2020 cfm. </p>
         </div>
     </body>
 </html>

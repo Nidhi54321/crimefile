@@ -370,7 +370,7 @@ public final class adminchangepass_jsp extends org.apache.jasper.runtime.HttpJsp
       out.write("  </div>\r\n");
       out.write("</div>\r\n");
       out.write("<div id=\"footer\">\r\n");
-      out.write("\t<p>Copyright &copy; 2009 cfm. Designed by<em class=\"style1\"> <a href=\"http://www.freecsstemplates.org/\">www.crimefilemanagement.com</a></em></p>\r\n");
+      out.write("\t<p>Copyright &copy; 2020 cfm. Designed by<em class=\"style1\"> <a href=\"http://www.freecsstemplates.org/\">www.crimefilemanagement.com</a></em></p>\r\n");
       out.write("</div>\r\n");
       out.write("\r\n");
       out.write("</body>\r\n");

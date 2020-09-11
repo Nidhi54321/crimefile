@@ -242,7 +242,7 @@ g.focus();
   </div>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 
 </body>

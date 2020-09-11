@@ -225,8 +225,8 @@ function doCheck()
                 String dis = request.getParameter("district");
                 String state = request.getParameter("state");
                 String stat = "u";
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 Statement st1 = con1.createStatement();
                 st.executeUpdate("insert into login values('" + user + "','" + pass + "','" + stat + "')");

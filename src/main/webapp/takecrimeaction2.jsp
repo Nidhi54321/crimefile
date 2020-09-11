@@ -61,8 +61,8 @@ Released for free under a Creative Commons Attribution 2.5 License
                 String crid = request.getParameter("crimeid");
                 String user = request.getParameter("userid");
                 String action1 = request.getParameter("action");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st2 = con1.createStatement();
                 st2.executeUpdate("insert into takecrimeaction values('" + user + "','" + crid + "','" + action1+ "')");
 
@@ -132,7 +132,7 @@ Released for free under a Creative Commons Attribution 2.5 License
             </div>
         </div>
         <div id="footer">
-            <p>Copyright &copy; 2009 cfm.</p>
+            <p>Copyright &copy; 2020 cfm.</p>
         </div>
     </body>
 </html>

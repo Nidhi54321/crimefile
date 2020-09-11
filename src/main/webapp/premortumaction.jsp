@@ -7,8 +7,8 @@ try
     String docna=request.getParameter("dn");
     String polst=request.getParameter("ps");
     String pre=request.getParameter("da");
-    Class.forName("com.mysql.jdbc.Driver").newInstance();
-    Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+    Class.forName("org.postgresql.Driver").newInstance();
+    Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
     Statement st = con1.createStatement();
     st.executeUpdate("insert into premortem values('"+preno+"','"+postno+"','"+docna+"','"+polst+"','"+pre+"')");
     out.println("Data submitted successfully");

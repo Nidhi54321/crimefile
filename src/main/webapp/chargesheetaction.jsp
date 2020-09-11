@@ -22,8 +22,8 @@
                 String ne = request.getParameter("ne");
                 String adr = request.getParameter("adr");
                 String ocp = request.getParameter("ocp");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st2 = con1.createStatement();
                 st2.executeUpdate("insert into chargesheet values('" +cs1 +"','"+ns1+"',"+dt1+",'"+fn+"','"+dis+"','"+na+"','"+add+"','"+occ+"','"+par+"','"+nm+"','"+address+"','"+male+"','"+female+"',"+ag1+",'"+oc+"','"+select+"','"+ac+"','"+ne+"','"+adr+"','"+ocp+"')");
 

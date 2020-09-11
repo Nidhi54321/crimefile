@@ -112,7 +112,7 @@ public final class mailsent_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("<table width=\"100%\" border=\"0\" cellspacing=\"0\" cellpadding=\"0\">\n");
       out.write("  <tr>\n");
       out.write("    <td align=\"center\"><font face=\"Verdana, Arial, Helvetica, sans-serif\" size=\"-2\">cyberspace</font><font face=\"Verdana, Arial, Helvetica, sans-serif\" size=\"-2\">\n");
-      out.write("      &copy; Copyright  2005-2009</font></td>\n");
+      out.write("      &copy; Copyright  2019-2020</font></td>\n");
       out.write("  </tr>\n");
       out.write("</table>\n");
       out.write("<p>&nbsp;</p>\n");

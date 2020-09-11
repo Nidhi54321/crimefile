@@ -150,8 +150,8 @@ function doValue()
                 String typecrime = request.getParameter("typecrime");
                 String typeothers = request.getParameter("typeothers");
 
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st2 = con1.createStatement();
                 st2.executeUpdate("insert into complaintreg values('"+userid+"','"+detailssuspect+"','"+description+"','"+date+"','"+typecrime+"')");
 

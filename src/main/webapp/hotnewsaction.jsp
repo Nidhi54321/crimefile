@@ -212,8 +212,8 @@ function doCheck()
                 String mat = request.getParameter("matter");
                 String tim = request.getParameter("time");
                 String pla = request.getParameter("place");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 st.executeUpdate("insert into hotnews values('" + mat + "','" + tim + "','"+ pla +"')");
                 out.println("Successfully Data submitted");
@@ -279,7 +279,7 @@ function doCheck()
   </div>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 </body>
 </html>

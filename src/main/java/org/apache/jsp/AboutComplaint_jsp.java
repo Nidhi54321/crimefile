@@ -37,8 +37,6 @@ public final class AboutComplaint_jsp extends org.apache.jasper.runtime.HttpJspB
     Object page = this;
     JspWriter _jspx_out = null;
     PageContext _jspx_page_context = null;
-
-
     try {
       response.setContentType("text/html");
       pageContext = _jspxFactory.getPageContext(this, request, response,
@@ -49,7 +47,6 @@ public final class AboutComplaint_jsp extends org.apache.jasper.runtime.HttpJspB
       session = pageContext.getSession();
       out = pageContext.getOut();
       _jspx_out = out;
-
       out.write("<!DOCTYPE html PUBLIC \"-//W3C//DTD XHTML 1.0 Strict//EN\" \"http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd\">\r\n");
       out.write("<!--\r\n");
       out.write("Design by Free CSS Templates\r\n");
@@ -147,7 +144,7 @@ public final class AboutComplaint_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("        <a href=\"mostwanted.jsp\">Most wanted</a>\r\n");
       out.write("\t\t</form>\r\n");
       out.write("    <div id=\"footer\">\r\n");
-      out.write("\t<p>Copyright &copy; 2009 cfm. Designed by<em> <span class=\"style1\"><a href=\"http://www.freecsstemplates.org/\">www.crimefilemanagement.com</a></span></em></p>\r\n");
+      out.write("\t<p>Copyright &copy; 2020 cfm. Designed by<em> <span class=\"style1\"><a href=\"http://www.freecsstemplates.org/\">www.crimefilemanagement.com</a></span></em></p>\r\n");
       out.write("</div>\r\n");
       out.write("</body>\r\n");
       out.write("</html>\r\n");

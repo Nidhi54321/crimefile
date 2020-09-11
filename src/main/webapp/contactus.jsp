@@ -101,7 +101,7 @@
 			<div class="divider"></div>
 		</div>
 		<div id="footer">
-			Copyright @ 2009, <a href="http://www.crimefilemanagement.com">www.cfm.com</a>, All rights Reserved.
+			Copyright @ 2020, <a href="http://www.crimefilemanagement.com">www.cfm.com</a>, All rights Reserved.
 		</div>
 	</div>
 </div>

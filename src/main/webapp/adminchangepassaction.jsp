@@ -147,8 +147,8 @@ function doCheck()
 
                 String c1 = (String) session.getAttribute("s1");
                 String c2 = (String) session.getAttribute("s2");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con.createStatement();
                 String user = request.getParameter("username");
                 String pass = request.getParameter("newpassword");
@@ -171,7 +171,7 @@ function doCheck()
 
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 </body>
 </html>

@@ -266,7 +266,7 @@ public final class adminchangepassword_jsp extends org.apache.jasper.runtime.Htt
       out.write("\r\n");
       out.write("</div>\r\n");
       out.write("<div id=\"footer\">\r\n");
-      out.write("\t<p>Copyright &copy; 2009 cfm. Designed by<em> <span class=\"style1\"><a href=\"http://www.freecsstemplates.org/\">www.crimefilemanagement.com</a></span></em></p>\r\n");
+      out.write("\t<p>Copyright &copy; 2020 cfm. Designed by<em> <span class=\"style1\"><a href=\"http://www.freecsstemplates.org/\">www.crimefilemanagement.com</a></span></em></p>\r\n");
       out.write("</div>\r\n");
       out.write("</body>\r\n");
       out.write("</html>\r\n");

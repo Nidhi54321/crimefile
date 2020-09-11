@@ -56,8 +56,8 @@ Released for free under a Creative Commons Attribution 2.5 License
                                         <%
             try {
 
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 ResultSet rs = st.executeQuery("select * from crimereport");
                 String userid = "", nameinformant1 = "", addressinfmant = "", details = "", description = "",dat = "";
@@ -157,7 +157,7 @@ Released for free under a Creative Commons Attribution 2.5 License
             </div>
         </div>
         <div id="footer">
-            <p>Copyright &copy; 2009 cfm. </p>
+            <p>Copyright &copy; 2020 cfm. </p>
         </div>
     </body>
 </html>

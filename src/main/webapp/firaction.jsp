@@ -228,8 +228,8 @@ function doCheck()
                 String rect = request.getParameter("rt");
                 String infrec = request.getParameter("ir");
                 String dispol = request.getParameter("di");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 st.executeUpdate("insert into FIR values('"+district+"',"+da1+",'"+ti1+"','"+type+"','"+place1+"','"+for1+"','"+act+"','"+firno+"','"+section1+"','"+refe+"','"+infradd+"','"+passno+"','"+comno+"','"+police+"','"+rect+"','"+infrec+"','"+dispol+"')");
                 out.println("Data submitted successfully");
@@ -290,7 +290,7 @@ function doCheck()
   </div>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm.</p>
+	<p>Copyright &copy; 2020 cfm.</p>
 </div>
 </body>
 </html>

@@ -48,8 +48,8 @@
                 String mostwanted = request.getParameter("select2");
                 
                  
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st2 = con1.createStatement();
                 st2.executeUpdate("insert into criminalregister values('"+crimeno+"','"+name+"','"+nick+"','"+age+"','"+occ+"','"+ct1+"','"+add+"','" + mostwanted +"')");
                              
@@ -112,7 +112,7 @@
   </div>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 
 </body>

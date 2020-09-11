@@ -323,7 +323,7 @@ public final class registeraction_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t\t\t<div class=\"divider\"></div>\r\n");
       out.write("\t  </div>\r\n");
       out.write("\t\t<div id=\"footer\">\r\n");
-      out.write("\t\t\tCopyright @ 2009, <a href=\"http://www.crimefilemanagement.com\">www.cfm.com</a>, All rights Reserved.\r\n");
+      out.write("\t\t\tCopyright @ 2020, <a href=\"http://www.crimefilemanagement.com\">www.cfm.com</a>, All rights Reserved.\r\n");
       out.write("\t\t</div>\r\n");
       out.write("\t</div>\r\n");
       out.write("</div>\r\n");

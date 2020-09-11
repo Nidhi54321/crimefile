@@ -101,7 +101,6 @@ create table postmortem(postno varchar(12),dname varchar(12),postno2 varchar(12)
 
 create table takecomplaintaction(user varchar(19),complaintid varchar(12) primary key,takeaction varchar(35));
 
-
 create table takecrimeaction(user varchar(19),crimeid varchar(12) primary key,takeaction varchar(35));
 
 

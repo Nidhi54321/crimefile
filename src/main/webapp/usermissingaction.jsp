@@ -159,8 +159,8 @@ try
      String namad=request.getParameter("nam");
       String bcc=request.getParameter("be");
       
-     Class.forName("com.mysql.jdbc.Driver").newInstance();
-     Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+     Class.forName("org.postgresql.Driver").newInstance();
+     Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
      Statement st = con1.createStatement();
      st.executeUpdate("insert into missingperson values('"+fno+"','"+distr+"','"+pols+"','"+datm +"','"+datr+"','"+se+"','"+ag+"','"+complexi+"','"+height+"','"+plump+"','"+identif+"','"+apparel+"','"+namad+"','"+bcc+"')");
 
@@ -180,7 +180,7 @@ try
 
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 </body>
 </html>

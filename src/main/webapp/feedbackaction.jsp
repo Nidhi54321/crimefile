@@ -137,8 +137,8 @@ if(a.value == "")
                 String na = request.getParameter("name1");
                 String em = request.getParameter("email1");
                 String me = request.getParameter("mess1");
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 st.executeUpdate("insert into feedback values('" + na + "','" + em+ "','" + me + "')");
                 out.println("Data completed successfully");
@@ -150,7 +150,7 @@ if(a.value == "")
    </form>
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2009 cfm. </p>
+	<p>Copyright &copy; 2020 cfm. </p>
 </div>
 </body>
 </html>

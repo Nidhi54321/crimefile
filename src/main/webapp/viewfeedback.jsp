@@ -52,8 +52,8 @@
                                         <%
             try {
 
-                Class.forName("com.mysql.jdbc.Driver").newInstance();
-                Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
+                Class.forName("org.postgresql.Driver").newInstance();
+                Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
                 Statement st = con1.createStatement();
                 ResultSet rs = st.executeQuery("select * from feedback");
                 String name1 = "", email1 = "", message1 = "";
@@ -141,7 +141,7 @@
             </div>
         </div>
         <div id="footer">
-            <p>Copyright &copy; 2009 cfm.</p>
+            <p>Copyright &copy; 2020 cfm.</p>
         </div>
     </body>
 </html>
