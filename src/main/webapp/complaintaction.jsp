@@ -1,7 +1,7 @@
 
 
 
-<%@page import="java.io.*,java.sql.*;"  session="true"%>
+<%@ page import="java.io.*,java.sql.*" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
@@ -116,7 +116,7 @@ function doValue()
 					<li><a href="complaint.jsp">Complaint</a></li>
 					<li><a href="crimereport.jsp">Crime Report</a></li>
 					<li><a href="usermissingperson.jsp">Missing Person </a></li>
-					<li><a href="viewmissingperson.jsp">View Missing Person </a></li>
+					<%-- <li><a href="viewmissingperson.jsp">View Missing Person </a></li>  --%>
 					<li><a href="viewmostwanted.jsp">View Mostwanted Person</a></li>
 				</ul>
 			</li>
@@ -155,7 +155,7 @@ function doValue()
                 Statement st2 = con1.createStatement();
                 st2.executeUpdate("insert into complaintreg values('"+userid+"','"+detailssuspect+"','"+description+"','"+date+"','"+typecrime+"')");
 
-                out.println("Complaint submitted,take action soon,Thank You");
+                out.println("Complaint submitted,action will be taken soon,Thank You");
 
 
 

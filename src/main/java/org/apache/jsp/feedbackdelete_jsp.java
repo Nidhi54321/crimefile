@@ -182,7 +182,6 @@ public final class feedbackdelete_jsp extends org.apache.jasper.runtime.HttpJspB
       out.write("\t\t\t\t\t<li><a href=\"missingperson.jsp\">Missing Persons </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"viewadminmissing.jsp\">View/Delete Missing Persons </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"criminalregister.jsp\">Criminal Register </a></li>\r\n");
-      out.write("\t\t\t\t\t<li><a href=\"viewcomplaintreply.jsp\">View Allcomplaintreply </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"prisonerreg.jsp\">Prisoners Register </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"prisonerreport.jsp\">ViewPrisonerReport </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"history.jsp\">History</a></li>\r\n");

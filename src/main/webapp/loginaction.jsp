@@ -34,7 +34,7 @@
                     response.sendRedirect("login.jsp");
            %>
                     <alert><% out.println("Login Failed!Try Again");%></alert>
-<%
+            <%
                 }
 
             }//try

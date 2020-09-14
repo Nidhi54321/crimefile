@@ -3,19 +3,12 @@ create database crimefile;
 
 create table login(username varchar(20) primary key ,password varchar(25),status varchar(10));
 
-insert into login values('vidya','vidyavinil','u');
-insert into login values('athira','vidyavinil','a');
-
-
-
+insert into login values('Nidhi_U','Neha@54321','u');
+insert into login values('Nidhi_a','Neha@54321','a');
 
 create table registration(name varchar(20),username varchar(20) primary key,secretquestion varchar(50),answer varchar(50),address varchar(50),pincode int(9),phone int(9),email varchar(30),village varchar(15),taluk varchar(15),district varchar(15),state varchar(15));
 
 insert into registration values('vidya','paru','Where is your house','aaaaaa','akalkssfopoftrlklhgk','695010','2431735','vidi@gmail.com','village','taluk','tvm','kerala');
-
-
-
-
 
 create table complaintreg(userid varchar(15) primary key,detailssuspect varchar(20),Description varchar(25),Datc date,typeofcrime varchar(10));
 
@@ -37,6 +30,7 @@ insert into crimereport values('u321','gowri','aaaaaaaaaa','jajdggffsgdh','eeeee
 
 
 create table admnregistration(username varchar(20) ,question varchar(20),answer varchar(20),name varchar(15),designation varchar(20),officialaddress varchar(25),phonen int(11),residentialaddress varchar(25),pincode int(9),phone int(11),email varchar(30));
+
 insert into admnregistration values('paru','123456','dwwrttyuy','asff','vidya','IG','akalkssfopoftrlklhgk','2462248','retryuuyiioopplkj','695010','2431735','vidi@gmail.com');
 
 
@@ -45,6 +39,7 @@ insert into prisonerregister values('p10','c1','paru','murder','criminal','asdfd
 
 
 create table criminalregister(criminalno varchar(10) primary key,name varchar(15),nickname varchar(15),age varchar(10),occupation varchar(15),crimetype varchar(15),address varchar(15),mostyesorno varchar(12));
+
 insert into criminalregister values('c10','vasu','gundukadu','35','gunda','murder','aaaaaaa');
 
 
@@ -78,7 +73,7 @@ create table missingperson(firno varchar(10),district varchar(10),nameofpol varc
 insert into missingperson values('f123','tvm','vanchiyoor','1985-06-22','1985-06-30','M','20','fair','169','fat','blackscar','stud and chain','asggfdffghggggg','ffg');
 
 create table mostwanted(name varchar(10),age varchar(10),address varchar(15),typeofcrime varchar(10),complexion varchar(10),hair varchar(10),built varchar(10),passportno varchar(10),casedescription varchar(10));
-insert into mostwanted values('aaaa','12','aaaaaaa','ssss','fair','sssshj','ffff','pppp','hhhhh');
+Insert into mostwanted values ('Nani','65','Bangda,XA,50109','Missing','Dark','short','Medium build','9876543223','bank robbery')
 
 create table mostwanted1(user varchar(10),name varchar(10),age varchar(10),address varchar(15),typeofcrime varchar(10),complexion varchar(10),hair varchar(10),built varchar(10),passportno varchar(10),casedescription varchar(10));
 insert into mostwanted values('aaaa','12','aaaaaaa','ssss','fair','sssshj','ffff','pppp','hhhhh');

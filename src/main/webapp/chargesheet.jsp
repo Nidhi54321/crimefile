@@ -369,7 +369,7 @@ q.focus();
 					<li><a href="newadmin.jsp">New admin </a></li>
 					<li><a href="hotnews.jsp">Hot News </a></li>
 					<li><a href="mostwanted.jsp">Most Wanted </a></li>
-					<li><a href="missingperson.jsp">Missing Persons </a></li>
+					<%-- <li><a href="missingperson.jsp">Missing Persons </a></li> --%>
 					<li><a href="criminalregister.jsp">Criminal Register </a></li>
 					<li><a href="postmortum.jsp">Post Mortum </a></li>
 					<li><a href="prisonerreg.jsp">Prisoners Register</a></li>

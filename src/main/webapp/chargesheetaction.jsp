@@ -1,5 +1,6 @@
 
-<%@page import="java.io.*,java.sql.*;"  session="true"%>
+<%@ page import="java.io.*,java.sql.*" %>
+
 <%
             try {
                 String cs1 = request.getParameter("cs");

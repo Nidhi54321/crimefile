@@ -64,7 +64,7 @@
   <tr>
     <td height="58"><div align="right" class="style73">Address:</div></td>
     <td><p align="center" class="style69">Crime Station </p>
-      <p align="center" class="style70"><strong>U.C Building, Sasthraji Nagar</strong></p>
+      <p align="center" class="style70"><strong>R.K Building, Sasthraji Nagar</strong></p>
       <p align="center" class="style70"><strong>Banglore-01 </strong></p></td>
   </tr>
 </table> 

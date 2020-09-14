@@ -1,7 +1,6 @@
 
 
-
-<%@page import="java.io.*,java.sql.*;"  session="true"%>
+<%@ page import="java.io.*,java.sql.*" %>
 
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 
@@ -105,7 +104,6 @@ Released for free under a Creative Commons Attribution 2.5 License
 					<li><a href="missingperson.jsp">Missing Persons </a></li>
 					<li><a href="viewadminmissing.jsp">View/Delete Missing Persons </a></li>
 					<li><a href="criminalregister.jsp">Criminal Register </a></li>
-					<li><a href="viewcomplaintreply.jsp">View Allcomplaintreply </a></li>
 					<li><a href="prisonerreg.jsp">Prisoners Register </a></li>
 					<li><a href="prisonerreport.jsp">ViewPrisonerReport </a></li>
 					<li><a href="history.jsp">History</a></li>

@@ -144,7 +144,7 @@ j.focus();
   <tr>
     <td height="58"><div align="right" class="style73">Address:</div></td>
     <td><p align="center" class="style69">Crime Station </p>
-      <p align="center" class="style70"><strong>U.C Building, Sasthraji Nagar</strong></p>
+      <p align="center" class="style70"><strong>R.K Building, Sasthraji Nagar</strong></p>
       <p align="center" class="style70"><strong>Banglore-01 </strong></p></td>
   </tr>
 </table> 
@@ -167,10 +167,9 @@ j.focus();
 					<li><a href="viewfeedback.jsp">View Feedback </a></li>
 					<li><a href="mostwanted.jsp">Most Wanted </a></li>
 					<li><a href="viewadminwanted.jsp">View/Delete MostWanted </a></li>
-					<li><a href="missingperson.jsp">Missing Persons </a></li>
+					<%-- <li><a href="missingperson.jsp">Missing Persons </a></li>  --%>
 					<li><a href="viewadminmissing.jsp">View/Delete Missing Persons </a></li>
 					<li><a href="criminalregister.jsp">Criminal Register </a></li>
-					<li><a href="viewcomplaintreply.jsp">View Allcomplaintreply </a></li>
 					<li><a href="prisonerreg.jsp">Prisoners Register </a></li>
 					<li><a href="prisonerreport.jsp">ViewPrisonerReport </a></li>
 					<li><a href="history.jsp">History</a></li>

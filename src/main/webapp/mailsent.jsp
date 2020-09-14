@@ -1,7 +1,7 @@
 
 <html>
 
-<%@page import="java.io.*,java.sql.*;"  session="true"%>
+<%@ page import="java.io.*,java.sql.*"  %>
 
 <head>
 <LINK REL=STYLESHEET TYPE="text/css" HREF="styles.css">

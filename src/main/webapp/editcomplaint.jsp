@@ -1,5 +1,5 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
-<%@page import="java.io.*,java.sql.*;"  session="true"%>
+<%@ page import="java.io.*,java.sql.*" %>
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <meta http-equiv="content-type" content="text/html; charset=utf-8" />
@@ -98,7 +98,7 @@
 					<li><a href="complaint.jsp">Complaint</a></li>
 					<li><a href="crimereport.jsp">Crime Report</a></li>
 					<li><a href="usermissingperson.jsp">Missing Person </a></li>
-					<li><a href="viewmissingperson.jsp">View Missing Person </a></li>
+				<%--	<li><a href="viewmissingperson.jsp">View Missing Person </a></li> --%>
 					<li><a href="viewmostwanted.jsp">View Mostwanted Person</a></li>
 				</ul>
 			</li>

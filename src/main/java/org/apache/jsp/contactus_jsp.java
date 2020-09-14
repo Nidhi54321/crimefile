@@ -116,7 +116,7 @@ public final class contactus_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("  <tr>\r\n");
       out.write("    <td height=\"58\"><div align=\"right\" class=\"style73\">Address:</div></td>\r\n");
       out.write("    <td><p align=\"center\" class=\"style69\">Crime Station </p>\r\n");
-      out.write("      <p align=\"center\" class=\"style70\"><strong>U.C Building, Sasthraji Nagar</strong></p>\r\n");
+      out.write("      <p align=\"center\" class=\"style70\"><strong>R.K Building, Sasthraji Nagar</strong></p>\r\n");
       out.write("      <p align=\"center\" class=\"style70\"><strong>Banglore-01 </strong></p></td>\r\n");
       out.write("  </tr>\r\n");
       out.write("</table> \r\n");

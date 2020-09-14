@@ -320,10 +320,9 @@ function doCheck()
 					<li><a href="viewfeedback.jsp">View Feedback </a></li>
 					<li><a href="mostwanted.jsp">Most Wanted </a></li>
 					<li><a href="viewadminwanted.jsp">View/Delete MostWanted </a></li>
-					<li><a href="missingperson.jsp">Missing Persons </a></li>
+					<%-- <li><a href="missingperson.jsp">Missing Persons </a></li>  --%>
 					<li><a href="viewadminmissing.jsp">View/Delete Missing Persons </a></li>
 					<li><a href="criminalregister.jsp">Criminal Register </a></li>
-					<li><a href="viewcomplaintreply.jsp">View Allcomplaintreply </a></li>
 					<li><a href="prisonerreg.jsp">Prisoners Register </a></li>
 					<li><a href="prisonerreport.jsp">ViewPrisonerReport </a></li>
 					<li><a href="history.jsp">History</a></li>

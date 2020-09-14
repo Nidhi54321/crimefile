@@ -159,7 +159,7 @@ public final class usermostwantedaction_jsp extends org.apache.jasper.runtime.Ht
       out.write("                            <li><a href=\"newadmin.jsp\">New admin </a></li>\n");
       out.write("                            <li><a href=\"hotnews.jsp\">Hot News </a></li>\n");
       out.write("                            <li><a href=\"mostwanted.jsp\">Most Wanted </a></li>\n");
-      out.write("                            <li><a href=\"missingperson.jsp\">Missing Persons </a></li>\n");
+     // out.write("                            <li><a href=\"missingperson.jsp\">Missing Persons </a></li>\n");
       out.write("                            <li><a href=\"criminalregister.jsp\">Criminal Register </a></li>\n");
       out.write("                            <li><a href=\"postmortum.jsp\">Post Mortum </a></li>\n");
       out.write("                            <li><a href=\"prisonerreg.jsp\">Prisoners Register </a></li>\n");

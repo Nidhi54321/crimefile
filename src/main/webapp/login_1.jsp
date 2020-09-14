@@ -1,4 +1,5 @@
-<%@ page language="java"  session="true" import="java.sql.*"%>
+<%@ page import="java.io.*,java.sql.*" %>
+
 <%
        
         String  errmsg = "";

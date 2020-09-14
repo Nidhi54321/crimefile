@@ -108,7 +108,7 @@ if(a.value == "")
 					<li><a href="complaint.jsp">Complaint</a></li>
 					<li><a href="crimereport.jsp">Crime Report</a></li>
 					<li><a href="usermissingperson.jsp">Missing Person </a></li>
-					<li><a href="viewmissingperson.jsp">View Missing Person </a></li>
+					<%-- <li><a href="viewmissingperson.jsp">View Missing Person </a></li>  --%>
 					<li><a href="viewmostwanted.jsp">View Mostwanted Person</a></li>
 				</ul>
 			</li>

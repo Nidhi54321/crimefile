@@ -198,7 +198,7 @@ public final class postmortum_jsp extends org.apache.jasper.runtime.HttpJspBase
       out.write("\t\t\t\t\t<li><a href=\"newadmin.jsp\">New admin </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"hotnews.jsp\">Hot News </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"mostwanted.jsp\">Most Wanted </a></li>\r\n");
-      out.write("\t\t\t\t\t<li><a href=\"missingperson.jsp\">Missing Persons </a></li>\r\n");
+    //  out.write("\t\t\t\t\t<li><a href=\"missingperson.jsp\">Missing Persons </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"criminalregister.jsp\">Criminal Register </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"postmortum.jsp\">Post Mortem </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"prisonerreg.jsp\">Prisoners Register</a></li>\r\n");

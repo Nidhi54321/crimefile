@@ -1,7 +1,4 @@
-
-
-
-<%@page import="java.io.*,java.sql.*;"  session="true"%>
+<%@page import="java.io.*,java.sql.*" %>
 <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <!--
 Design by Free CSS Templates
@@ -159,8 +156,8 @@ try
      String namad=request.getParameter("nam");
       String bcc=request.getParameter("be");
       
-     Class.forName("org.postgresql.Driver").newInstance();
-     Connection con1 = DriverManager.getConnection("jdbc:postgresql://localhost/crimefile", "crimefile", "root");
+     Class.forName("com.mysql.jdbc.Driver").newInstance();
+     Connection con1 = DriverManager.getConnection("Jdbc:mysql://localhost/crimefile", "root", "");
      Statement st = con1.createStatement();
      st.executeUpdate("insert into missingperson values('"+fno+"','"+distr+"','"+pols+"','"+datm +"','"+datr+"','"+se+"','"+ag+"','"+complexi+"','"+height+"','"+plump+"','"+identif+"','"+apparel+"','"+namad+"','"+bcc+"')");
 
@@ -180,7 +177,7 @@ try
 
 </div>
 <div id="footer">
-	<p>Copyright &copy; 2020 cfm. </p>
+	<p>Copyright &copy; 2009 cfm. </p>
 </div>
 </body>
 </html>

@@ -171,10 +171,8 @@ public final class viewfeedback_jsp extends org.apache.jasper.runtime.HttpJspBas
       out.write("\t\t\t\t\t<li><a href=\"viewfeedback.jsp\">View Feedback </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"mostwanted.jsp\">Most Wanted </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"viewadminwanted.jsp\">View/Delete MostWanted </a></li>\r\n");
-      out.write("\t\t\t\t\t<li><a href=\"missingperson.jsp\">Missing Persons </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"viewadminmissing.jsp\">View/Delete Missing Persons </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"criminalregister.jsp\">Criminal Register </a></li>\r\n");
-      out.write("\t\t\t\t\t<li><a href=\"viewcomplaintreply.jsp\">View Allcomplaintreply </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"prisonerreg.jsp\">Prisoners Register </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"prisonerreport.jsp\">ViewPrisonerReport </a></li>\r\n");
       out.write("\t\t\t\t\t<li><a href=\"history.jsp\">History</a></li>\r\n");
